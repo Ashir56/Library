@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library CRUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Library</h1>
+        <div>
+            <label for="bookName">Book Name:</label>
+            <input type="text" id="bookName" placeholder="Enter book name">
+        </div>
+        <div>
+            <label for="authorName">Author Name:</label>
+            <input type="text" id="authorName" placeholder="Enter author name">
+        </div>
+        <button onclick="addBook()">Add Book</button>
+        <div id="libraryList"></div>
+    </div>
+
+    <script src="library.js"></script>
+</body>
+</html>
